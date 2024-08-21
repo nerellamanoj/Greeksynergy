@@ -1,0 +1,33 @@
+.company-info-container {
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin: 0 auto; /* Center the container */
+  position: relative; /* For positioning the close button */
+}
+
+.company-info-container h2 {
+  margin-bottom: 20px;
+}
+
+.company-info-container p {
+  margin: 10px 0;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #ff4d4d; /* Red background for the close button */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  background: #e60000; /* Darker red on hover */
+}
